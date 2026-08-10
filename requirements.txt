@@ -1,0 +1,6 @@
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+sounddevice>=0.4.7
+soundfile>=0.12.1
+tqdm>=4.66
