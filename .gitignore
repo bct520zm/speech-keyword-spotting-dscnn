@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==============================
+# Project-specific ignores
+# ==============================
+
+# Speech Commands dataset
+data/
+
+# Training outputs and checkpoints
+outputs/
+checkpoints/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Large dataset / archive files
+*.tar
+*.tar.gz
+*.zip
+
+# IDE settings
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
